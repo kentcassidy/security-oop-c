@@ -2,7 +2,7 @@
 This project was completed by myself for my computer security class assignment. Templates for `Int.h` and `GenericTraits.h` were provided by the instructor for guidance.
 
 ## overview
-For this assignment, I was tasked with integrating a quicksort function that could apply to any of the four structs: Int, Student, Human, and Rectangle.
+For this assignment, I was tasked with integrating a quicksort function that could apply to any of the four structs: `Int`, `Student`, `Human`, and `Rectangle`.
 This task required for an implementation of basic object-oriented programming (OOP) in C, a language that does not inherently support such concepts.
 This project is heavily focused on pointer and memory operations, yet is tested to be memory safe when compiled with AddressSanitizer.
 The code also pushed me to better understand the definition and usage of C macro preprocessing (Most notable are lines 48 to 57 in GenericTraits.h).
@@ -16,8 +16,8 @@ Through my particular task, I have also demonstrated the OOP concept of inherita
 ## compilation instructions
 Download repository contents into your desired directory.
 
-`mkdir build`: From this main directory, create a build folder to `cd` into.
+`mkdir build` From this main directory, create a build folder to `cd` into.
 
-`cmake -DCMAKE_BUILD_TYPE=asan ../src`: configures CMake with ASan enabled.
+`cmake -DCMAKE_BUILD_TYPE=asan ../src` configures CMake with ASan enabled.
 
 `make`, then `./Main [input_filename.txt]` or `./Main [arguments...]` to build then run the code.
