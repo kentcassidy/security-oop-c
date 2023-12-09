@@ -15,6 +15,9 @@ Through my particular task, I have also demonstrated the OOP concept of inherita
 
 ## compilation instructions
 Download repository contents into your desired directory.
+
 `mkdir build`: From this main directory, create a build folder to `cd` into.
+
 `cmake -DCMAKE_BUILD_TYPE=asan ../src`: configures CMake with ASan enabled.
+
 `make`, then `./Main [input_filename.txt]` or `./Main [arguments...]` to build then run the code.
