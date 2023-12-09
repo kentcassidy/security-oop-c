@@ -1,5 +1,5 @@
 # security-oop-c
-This project was completed by myself for my computer security class assignment.
+This project was completed by myself for my computer security class assignment. Templates for `Int.h` and `GenericTraits.h` were provided by the instructor for guidance.
 
 ## overview
 For this assignment, I was tasked with integrating a quicksort function that could apply to any of the four structs: Int, Student, Human, and Rectangle.
